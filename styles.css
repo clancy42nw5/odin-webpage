@@ -1,0 +1,170 @@
+* {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header, .herocontainer, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+h1, h2 {
+    color: #F9FAF8
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.headertext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+button, .signupbox {
+    background-color: #3882F6;
+    color: white;
+}
+
+.skillsheader {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.skillsheader, .quotetext {
+    color: #1F2937;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.headshot {
+    width: 150px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 48px;
+    flex: 1;
+}
+
+.headertext {
+    display: flex;
+    gap: 36px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.herocontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+}
+
+.herotext {
+    display: flex;
+    flex: 0 1 0;
+    flex-direction: column;
+    padding: 72px 36px;
+    flex-wrap: wrap;
+}
+
+.heroimage {
+    justify-content: center;
+    padding: 0px 144px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 18px 18px;
+}
+
+.skillslinks {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 0px 72px;
+}
+
+.info {
+    max-width: 150px;
+    padding: 36px 0px;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 18px 18px;
+}
+
+.quotesource {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 72px;
+}
+
+.subhero {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 72px;
+}
+
+.signupbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 16px;
+    border-radius: 20px;
+    gap: 18px;
+}
+
+.contacttext {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.contactbutton {
+    padding:  16px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px 16px;
+}
+
+button {
+    flex-grow: 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.button2 {
+    border: 2px solid white;
+    padding: 10px;
+}
