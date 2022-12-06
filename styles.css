@@ -1,5 +1,7 @@
-* {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Roboto+Slab&display=swap');
+
+:root {
+    font-family: League Spartan, Roboto Slab;
 }
 
 a:link {
